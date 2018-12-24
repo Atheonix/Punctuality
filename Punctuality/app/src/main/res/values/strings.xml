@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Punctuality</string>
+    <string name="sched">schedules</string>
 </resources>
