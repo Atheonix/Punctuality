@@ -5,4 +5,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/browse_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/saved_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/saved_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/browse_out</item>
+    </style>
 </resources>

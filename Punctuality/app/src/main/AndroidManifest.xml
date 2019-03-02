@@ -16,15 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".SavedSchedules">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".SavedSchedules" />
         </activity>
-        <activity android:name=".Schedule">
+        <activity android:name=".Browse">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Schedule" />
+                android:value=".Browse" />
         </activity>
         <activity android:name=".timepickimage">
             <meta-data

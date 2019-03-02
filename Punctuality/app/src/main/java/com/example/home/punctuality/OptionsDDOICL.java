@@ -14,7 +14,7 @@ public class OptionsDDOICL implements AdapterView.OnItemClickListener {
 
         // get the context and main activity to access variables
         Context mContext = v.getContext();
-        MainActivity mainActivity = ((MainActivity) mContext);
+        SavedSchedules savedSchedules = ((SavedSchedules) mContext);
 
         // add some animation when a list item was clicked
         Animation fadeInAnimation = AnimationUtils.loadAnimation(v.getContext(), android.R.anim.fade_in);
@@ -22,11 +22,11 @@ public class OptionsDDOICL implements AdapterView.OnItemClickListener {
         v.startAnimation(fadeInAnimation);
 
         // dismiss the pop up
-        mainActivity.popupWindowOptions.dismiss();
+        savedSchedules.popupWindowOptions.dismiss();
 
         // get the text and set it as the button text
         String selectedItemText = ((TextView) v).getText().toString();
-        mainActivity.buttonShowDropDown.setText(selectedItemText);
+        savedSchedules.buttonShowDropDown.setText(selectedItemText);
 
 
 
