@@ -8,6 +8,6 @@ public class timepickimage extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timepickimage);
+        setContentView(R.layout.edit_schedule);
     }
 }

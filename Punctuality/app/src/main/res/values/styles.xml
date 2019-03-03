@@ -1,9 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:textColor">@color/Inchworm</item>
+        <item name="android:colorAccent">@color/Aresnic</item>
+        <item name="android:textColorPrimary">@color/Inchworm</item>
+    <item name="android:colorControlNormal">@color/Coral_red</item>
+        <item name="android:colorControlActivated">@color/Coral_red</item></style>
 
     <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/browse_in</item>
@@ -11,4 +14,15 @@
         <item name="android:activityCloseEnterAnimation">@anim/saved_in</item>
         <item name="android:activityCloseExitAnimation">@anim/browse_out</item>
     </style>
+
+    <style name="MyTimePickerWidgetStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">#ffe082</item>
+        <item name="android:numbersTextColor">#b71c1c</item>
+        <item name="android:numbersInnerTextColor">#f44336</item>
+        <item name="android:numbersSelectorColor">#33691e</item>
+        <item name="android:numbersBackgroundColor">#ef9a9a</item>
+        <item name="android:amPmTextColor">#9c27b0</item>
+    </style>
+
+
 </resources>

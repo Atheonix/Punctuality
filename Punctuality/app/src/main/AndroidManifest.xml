@@ -26,10 +26,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Browse" />
         </activity>
-        <activity android:name=".timepickimage">
+        <activity android:name=".EditSchedule">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".timepickimage" />
+                android:value=".EditSchedule" />
+        </activity>
+        <activity android:name=".EditSchedule2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EditSchedule2" />
+
+        </activity>
+        <activity android:name=".EditSchedule3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EditSchedule3" />
         </activity>
     </application>
 

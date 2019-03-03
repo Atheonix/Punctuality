@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:padding="10dp"
+    tools:context=".SavedSchedules">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/neuropol"
+        android:text="@string/browse"
+        android:textColor="@color/Coral_red"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView6"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Default"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="random sched "
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="thursdays"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Babysitting schedule"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="my schedule"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Vacation"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Weekends"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Gym Day"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Wednesdays"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/Black"
+                android:fontFamily="@font/conthrax"
+                android:gravity="left|center_vertical"
+                android:text="Work"
+                android:textColor="@color/Inchworm"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

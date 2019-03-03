@@ -36,6 +36,33 @@ public class SavedSchedules extends Activity implements SwipeInterface{
         TextView swipe_title = (TextView) findViewById(R.id.textView5);
         swipe_scroll.setOnTouchListener(swipe3);
 
+        Button btn1 = (Button)findViewById(R.id.button4);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SavedSchedules.this, EditSchedule.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn2 = (Button)findViewById(R.id.button5);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(SavedSchedules.this, EditSchedule2.class);
+                startActivity(intent2);
+            }
+        });
+
+        Button btn3 = (Button)findViewById(R.id.button6);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(SavedSchedules.this, EditSchedule3.class);
+                startActivity(intent3);
+            }
+        });
+
 
 
         /*TextView tx = (TextView)findViewById(R.id.textView);
